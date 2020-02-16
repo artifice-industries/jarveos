@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4928585C1B711E500075090D /* AIOSCBool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928583C1B711E500075090D /* AIOSCBool.m */; };
+		4928585D1B711E500075090D /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928583F1B711E500075090D /* F53OSCBundle.m */; };
+		4928585E1B711E500075090D /* F53OSCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858411B711E500075090D /* F53OSCClient.m */; };
+		4928585F1B711E500075090D /* F53OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858441B711E500075090D /* F53OSCMessage.m */; };
+		492858601B711E500075090D /* F53OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858461B711E500075090D /* F53OSCPacket.m */; };
+		492858611B711E500075090D /* F53OSCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858481B711E500075090D /* F53OSCParser.m */; };
+		492858621B711E500075090D /* F53OSCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928584B1B711E500075090D /* F53OSCServer.m */; };
+		492858631B711E500075090D /* F53OSCSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928584D1B711E500075090D /* F53OSCSocket.m */; };
+		492858641B711E500075090D /* F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928584F1B711E500075090D /* F53OSCTimeTag.m */; };
+		492858651B711E500075090D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858511B711E500075090D /* GCDAsyncSocket.m */; };
+		492858661B711E500075090D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858531B711E500075090D /* GCDAsyncUdpSocket.m */; };
+		492858671B711E500075090D /* NSData+F53OSCBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858551B711E500075090D /* NSData+F53OSCBlob.m */; };
+		492858681B711E500075090D /* NSDate+F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858571B711E500075090D /* NSDate+F53OSCTimeTag.m */; };
+		492858691B711E500075090D /* NSNumber+F53OSCNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 492858591B711E500075090D /* NSNumber+F53OSCNumber.m */; };
+		4928586A1B711E500075090D /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928585B1B711E500075090D /* NSString+F53OSCString.m */; };
+		4987EA8B1B7107DD000B8F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987EA8A1B7107DD000B8F77 /* AppDelegate.swift */; };
+		4987EA8D1B7107DD000B8F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987EA8C1B7107DD000B8F77 /* ViewController.swift */; };
+		4987EA8F1B7107DD000B8F77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4987EA8E1B7107DD000B8F77 /* Images.xcassets */; };
+		4987EA921B7107DD000B8F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4987EA901B7107DD000B8F77 /* Main.storyboard */; };
+		4987EA9E1B7107DD000B8F77 /* JarveosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987EA9D1B7107DD000B8F77 /* JarveosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4987EA981B7107DD000B8F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4987EA7D1B7107DD000B8F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4987EA841B7107DD000B8F77;
+			remoteInfo = Jarveos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490CE93C1B8DE63300C6296A /* Jarveos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Jarveos.entitlements; sourceTree = "<group>"; };
+		4928583A1B711E500075090D /* Jarveos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jarveos-Bridging-Header.h"; sourceTree = "<group>"; };
+		4928583B1B711E500075090D /* AIOSCBool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIOSCBool.h; path = OSC/AIOSCBool.h; sourceTree = "<group>"; };
+		4928583C1B711E500075090D /* AIOSCBool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIOSCBool.m; path = OSC/AIOSCBool.m; sourceTree = "<group>"; };
+		4928583D1B711E500075090D /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSC.h; path = OSC/F53OSC.h; sourceTree = "<group>"; };
+		4928583E1B711E500075090D /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCBundle.h; path = OSC/F53OSCBundle.h; sourceTree = "<group>"; };
+		4928583F1B711E500075090D /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCBundle.m; path = OSC/F53OSCBundle.m; sourceTree = "<group>"; };
+		492858401B711E500075090D /* F53OSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCClient.h; path = OSC/F53OSCClient.h; sourceTree = "<group>"; };
+		492858411B711E500075090D /* F53OSCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCClient.m; path = OSC/F53OSCClient.m; sourceTree = "<group>"; };
+		492858421B711E500075090D /* F53OSCFoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCFoundationAdditions.h; path = OSC/F53OSCFoundationAdditions.h; sourceTree = "<group>"; };
+		492858431B711E500075090D /* F53OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCMessage.h; path = OSC/F53OSCMessage.h; sourceTree = "<group>"; };
+		492858441B711E500075090D /* F53OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCMessage.m; path = OSC/F53OSCMessage.m; sourceTree = "<group>"; };
+		492858451B711E500075090D /* F53OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCPacket.h; path = OSC/F53OSCPacket.h; sourceTree = "<group>"; };
+		492858461B711E500075090D /* F53OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCPacket.m; path = OSC/F53OSCPacket.m; sourceTree = "<group>"; };
+		492858471B711E500075090D /* F53OSCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCParser.h; path = OSC/F53OSCParser.h; sourceTree = "<group>"; };
+		492858481B711E500075090D /* F53OSCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCParser.m; path = OSC/F53OSCParser.m; sourceTree = "<group>"; };
+		492858491B711E500075090D /* F53OSCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCProtocols.h; path = OSC/F53OSCProtocols.h; sourceTree = "<group>"; };
+		4928584A1B711E500075090D /* F53OSCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCServer.h; path = OSC/F53OSCServer.h; sourceTree = "<group>"; };
+		4928584B1B711E500075090D /* F53OSCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCServer.m; path = OSC/F53OSCServer.m; sourceTree = "<group>"; };
+		4928584C1B711E500075090D /* F53OSCSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCSocket.h; path = OSC/F53OSCSocket.h; sourceTree = "<group>"; };
+		4928584D1B711E500075090D /* F53OSCSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCSocket.m; path = OSC/F53OSCSocket.m; sourceTree = "<group>"; };
+		4928584E1B711E500075090D /* F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCTimeTag.h; path = OSC/F53OSCTimeTag.h; sourceTree = "<group>"; };
+		4928584F1B711E500075090D /* F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCTimeTag.m; path = OSC/F53OSCTimeTag.m; sourceTree = "<group>"; };
+		492858501B711E500075090D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = OSC/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		492858511B711E500075090D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = OSC/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		492858521B711E500075090D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = OSC/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		492858531B711E500075090D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = OSC/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		492858541B711E500075090D /* NSData+F53OSCBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+F53OSCBlob.h"; path = "OSC/NSData+F53OSCBlob.h"; sourceTree = "<group>"; };
+		492858551B711E500075090D /* NSData+F53OSCBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+F53OSCBlob.m"; path = "OSC/NSData+F53OSCBlob.m"; sourceTree = "<group>"; };
+		492858561B711E500075090D /* NSDate+F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+F53OSCTimeTag.h"; path = "OSC/NSDate+F53OSCTimeTag.h"; sourceTree = "<group>"; };
+		492858571B711E500075090D /* NSDate+F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+F53OSCTimeTag.m"; path = "OSC/NSDate+F53OSCTimeTag.m"; sourceTree = "<group>"; };
+		492858581B711E500075090D /* NSNumber+F53OSCNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+F53OSCNumber.h"; path = "OSC/NSNumber+F53OSCNumber.h"; sourceTree = "<group>"; };
+		492858591B711E500075090D /* NSNumber+F53OSCNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+F53OSCNumber.m"; path = "OSC/NSNumber+F53OSCNumber.m"; sourceTree = "<group>"; };
+		4928585A1B711E500075090D /* NSString+F53OSCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+F53OSCString.h"; path = "OSC/NSString+F53OSCString.h"; sourceTree = "<group>"; };
+		4928585B1B711E500075090D /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+F53OSCString.m"; path = "OSC/NSString+F53OSCString.m"; sourceTree = "<group>"; };
+		4987EA851B7107DD000B8F77 /* Jarveos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jarveos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4987EA891B7107DD000B8F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4987EA8A1B7107DD000B8F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4987EA8C1B7107DD000B8F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4987EA8E1B7107DD000B8F77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4987EA911B7107DD000B8F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4987EA971B7107DD000B8F77 /* JarveosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarveosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4987EA9C1B7107DD000B8F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4987EA9D1B7107DD000B8F77 /* JarveosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarveosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4987EA821B7107DD000B8F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4987EA941B7107DD000B8F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492858391B711E3C0075090D /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				4928583B1B711E500075090D /* AIOSCBool.h */,
+				4928583C1B711E500075090D /* AIOSCBool.m */,
+				4928583D1B711E500075090D /* F53OSC.h */,
+				4928583E1B711E500075090D /* F53OSCBundle.h */,
+				4928583F1B711E500075090D /* F53OSCBundle.m */,
+				492858401B711E500075090D /* F53OSCClient.h */,
+				492858411B711E500075090D /* F53OSCClient.m */,
+				492858421B711E500075090D /* F53OSCFoundationAdditions.h */,
+				492858431B711E500075090D /* F53OSCMessage.h */,
+				492858441B711E500075090D /* F53OSCMessage.m */,
+				492858451B711E500075090D /* F53OSCPacket.h */,
+				492858461B711E500075090D /* F53OSCPacket.m */,
+				492858471B711E500075090D /* F53OSCParser.h */,
+				492858481B711E500075090D /* F53OSCParser.m */,
+				492858491B711E500075090D /* F53OSCProtocols.h */,
+				4928584A1B711E500075090D /* F53OSCServer.h */,
+				4928584B1B711E500075090D /* F53OSCServer.m */,
+				4928584C1B711E500075090D /* F53OSCSocket.h */,
+				4928584D1B711E500075090D /* F53OSCSocket.m */,
+				4928584E1B711E500075090D /* F53OSCTimeTag.h */,
+				4928584F1B711E500075090D /* F53OSCTimeTag.m */,
+				492858501B711E500075090D /* GCDAsyncSocket.h */,
+				492858511B711E500075090D /* GCDAsyncSocket.m */,
+				492858521B711E500075090D /* GCDAsyncUdpSocket.h */,
+				492858531B711E500075090D /* GCDAsyncUdpSocket.m */,
+				492858541B711E500075090D /* NSData+F53OSCBlob.h */,
+				492858551B711E500075090D /* NSData+F53OSCBlob.m */,
+				492858561B711E500075090D /* NSDate+F53OSCTimeTag.h */,
+				492858571B711E500075090D /* NSDate+F53OSCTimeTag.m */,
+				492858581B711E500075090D /* NSNumber+F53OSCNumber.h */,
+				492858591B711E500075090D /* NSNumber+F53OSCNumber.m */,
+				4928585A1B711E500075090D /* NSString+F53OSCString.h */,
+				4928585B1B711E500075090D /* NSString+F53OSCString.m */,
+				4928583A1B711E500075090D /* Jarveos-Bridging-Header.h */,
+			);
+			name = OSC;
+			sourceTree = "<group>";
+		};
+		4987EA7C1B7107DD000B8F77 = {
+			isa = PBXGroup;
+			children = (
+				4987EA871B7107DD000B8F77 /* Jarveos */,
+				4987EA9A1B7107DD000B8F77 /* JarveosTests */,
+				4987EA861B7107DD000B8F77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4987EA861B7107DD000B8F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4987EA851B7107DD000B8F77 /* Jarveos.app */,
+				4987EA971B7107DD000B8F77 /* JarveosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4987EA871B7107DD000B8F77 /* Jarveos */ = {
+			isa = PBXGroup;
+			children = (
+				490CE93C1B8DE63300C6296A /* Jarveos.entitlements */,
+				4987EA8A1B7107DD000B8F77 /* AppDelegate.swift */,
+				4987EA8C1B7107DD000B8F77 /* ViewController.swift */,
+				4987EA8E1B7107DD000B8F77 /* Images.xcassets */,
+				4987EA901B7107DD000B8F77 /* Main.storyboard */,
+				4987EA881B7107DD000B8F77 /* Supporting Files */,
+			);
+			path = Jarveos;
+			sourceTree = "<group>";
+		};
+		4987EA881B7107DD000B8F77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				492858391B711E3C0075090D /* OSC */,
+				4987EA891B7107DD000B8F77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4987EA9A1B7107DD000B8F77 /* JarveosTests */ = {
+			isa = PBXGroup;
+			children = (
+				4987EA9D1B7107DD000B8F77 /* JarveosTests.swift */,
+				4987EA9B1B7107DD000B8F77 /* Supporting Files */,
+			);
+			path = JarveosTests;
+			sourceTree = "<group>";
+		};
+		4987EA9B1B7107DD000B8F77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4987EA9C1B7107DD000B8F77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4987EA841B7107DD000B8F77 /* Jarveos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4987EAA11B7107DD000B8F77 /* Build configuration list for PBXNativeTarget "Jarveos" */;
+			buildPhases = (
+				4987EA811B7107DD000B8F77 /* Sources */,
+				4987EA821B7107DD000B8F77 /* Frameworks */,
+				4987EA831B7107DD000B8F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jarveos;
+			productName = Jarveos;
+			productReference = 4987EA851B7107DD000B8F77 /* Jarveos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4987EA961B7107DD000B8F77 /* JarveosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4987EAA41B7107DD000B8F77 /* Build configuration list for PBXNativeTarget "JarveosTests" */;
+			buildPhases = (
+				4987EA931B7107DD000B8F77 /* Sources */,
+				4987EA941B7107DD000B8F77 /* Frameworks */,
+				4987EA951B7107DD000B8F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4987EA991B7107DD000B8F77 /* PBXTargetDependency */,
+			);
+			name = JarveosTests;
+			productName = JarveosTests;
+			productReference = 4987EA971B7107DD000B8F77 /* JarveosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4987EA7D1B7107DD000B8F77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sam Smallman";
+				TargetAttributes = {
+					4987EA841B7107DD000B8F77 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2AUEN8L88X;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					4987EA961B7107DD000B8F77 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4987EA841B7107DD000B8F77;
+					};
+				};
+			};
+			buildConfigurationList = 4987EA801B7107DD000B8F77 /* Build configuration list for PBXProject "Jarveos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4987EA7C1B7107DD000B8F77;
+			productRefGroup = 4987EA861B7107DD000B8F77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4987EA841B7107DD000B8F77 /* Jarveos */,
+				4987EA961B7107DD000B8F77 /* JarveosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4987EA831B7107DD000B8F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4987EA8F1B7107DD000B8F77 /* Images.xcassets in Resources */,
+				4987EA921B7107DD000B8F77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4987EA951B7107DD000B8F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4987EA811B7107DD000B8F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492858651B711E500075090D /* GCDAsyncSocket.m in Sources */,
+				492858641B711E500075090D /* F53OSCTimeTag.m in Sources */,
+				492858601B711E500075090D /* F53OSCPacket.m in Sources */,
+				492858691B711E500075090D /* NSNumber+F53OSCNumber.m in Sources */,
+				492858631B711E500075090D /* F53OSCSocket.m in Sources */,
+				4928586A1B711E500075090D /* NSString+F53OSCString.m in Sources */,
+				492858621B711E500075090D /* F53OSCServer.m in Sources */,
+				492858611B711E500075090D /* F53OSCParser.m in Sources */,
+				4987EA8D1B7107DD000B8F77 /* ViewController.swift in Sources */,
+				4987EA8B1B7107DD000B8F77 /* AppDelegate.swift in Sources */,
+				492858681B711E500075090D /* NSDate+F53OSCTimeTag.m in Sources */,
+				4928585D1B711E500075090D /* F53OSCBundle.m in Sources */,
+				4928585E1B711E500075090D /* F53OSCClient.m in Sources */,
+				4928585F1B711E500075090D /* F53OSCMessage.m in Sources */,
+				492858661B711E500075090D /* GCDAsyncUdpSocket.m in Sources */,
+				492858671B711E500075090D /* NSData+F53OSCBlob.m in Sources */,
+				4928585C1B711E500075090D /* AIOSCBool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4987EA931B7107DD000B8F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4987EA9E1B7107DD000B8F77 /* JarveosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4987EA991B7107DD000B8F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4987EA841B7107DD000B8F77 /* Jarveos */;
+			targetProxy = 4987EA981B7107DD000B8F77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4987EA901B7107DD000B8F77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4987EA911B7107DD000B8F77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4987EA9F1B7107DD000B8F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4987EAA01B7107DD000B8F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4987EAA21B7107DD000B8F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Jarveos/Jarveos.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Jarveos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artificeIndustries.mac.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jarveos/Jarveos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4987EAA31B7107DD000B8F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Jarveos/Jarveos.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Jarveos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artificeIndustries.mac.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jarveos/Jarveos-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4987EAA51B7107DD000B8F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JarveosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artificeIndustries.mac..$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jarveos.app/Contents/MacOS/Jarveos";
+			};
+			name = Debug;
+		};
+		4987EAA61B7107DD000B8F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JarveosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artificeIndustries.mac..$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jarveos.app/Contents/MacOS/Jarveos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4987EA801B7107DD000B8F77 /* Build configuration list for PBXProject "Jarveos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4987EA9F1B7107DD000B8F77 /* Debug */,
+				4987EAA01B7107DD000B8F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4987EAA11B7107DD000B8F77 /* Build configuration list for PBXNativeTarget "Jarveos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4987EAA21B7107DD000B8F77 /* Debug */,
+				4987EAA31B7107DD000B8F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4987EAA41B7107DD000B8F77 /* Build configuration list for PBXNativeTarget "JarveosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4987EAA51B7107DD000B8F77 /* Debug */,
+				4987EAA61B7107DD000B8F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4987EA7D1B7107DD000B8F77 /* Project object */;
+}
